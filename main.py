@@ -11,10 +11,11 @@
 #Importar un paquete de modulos
 from analisis_datos import *
 
+#Generar una lista de compras aleatoria y escribir esta lista en un archivo
 lista_compras = generar_lista_compras()
 guardar_lista_compras(lista_compras)
-
-precios  = [precio for nombre, precio in lista_compras] #Nombre no se utiliza
-
-print(lista_compras)
-print(media(precios))
+precios = [precio for _, precio in lista_compras]
+media = media(precios)
+mediana = mediana(precios)
+print(f"Media de precios: ¢{media:.2f}")
+print(f"Mediana de precios: ¢{mediana:.2f}")
