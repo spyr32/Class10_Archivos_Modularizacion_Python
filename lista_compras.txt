@@ -1,5 +1,5 @@
-pan:2275
-manzanas:1000
-huevos:3400
-cerezas:2000
-bananos:150
+Yogurt:800
+Té:500
+Lechuga:1000
+Frijoles:600
+Uva:400
