@@ -1,7 +1,20 @@
-# Proyecto: [Nombre del Proyecto]
-# Estudiante: [Nombre del Estudiante]
-# Fecha de Inicio: [dd/mm/aaaa]
-# Fecha de Entrega: [dd/mm/aaaa]
-# Descripción: Este archivo contiene el punto de entrada principal del proyecto.
-# Recuerda incluir tu nombre completo, la fecha en la que iniciaste el proyecto y la fecha estimada de entrega.
-# Esto ayuda a mantener un registro claro del trabajo realizado.
+# Proyecto: Compras Fruteria
+# Estudiante: Andrés Mena Abarca
+# Fecha de Inicio: 2024/11/13
+# Fecha de Entrega: 2024/11/13
+# Descripción: Controlar las compras de frutas y verduras
+# Version: 0.0
+
+#Importa modulo individual
+#from analisis_datos.carga_datos import generar_lista_compras , guardar_lista_compras
+
+#Importar un paquete de modulos
+from analisis_datos import *
+
+lista_compras = generar_lista_compras()
+guardar_lista_compras(lista_compras)
+
+precios  = [precio for nombre, precio in lista_compras] #Nombre no se utiliza
+
+print(lista_compras)
+print(media(precios))

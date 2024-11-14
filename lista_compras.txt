@@ -1,5 +1,5 @@
-pan:2275
-manzanas:1000
-huevos:3400
-cerezas:2000
-bananos:150
+Huevos (docena):1200
+Pan:350
+Yogurt:800
+Tomate:800
+Té:500
